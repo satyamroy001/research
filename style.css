@@ -2,12 +2,68 @@ body {background-color: black;}
 h1{
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: larger;
+    font-size: 80px;
     font-style: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+    
 }
 #des{
-    color: yellow;
+    color: rgb(255, 255, 255);
     font-style: initial;
-    font-size: medium;
+    font-size: large;
+    padding-top: 40px;
+    font-size: 30px;
 }
+p{
+    color: white;
+    text-align: center;
+    font-style: initial;
+    font-size: 50px;
+    padding-top: 10px;
+}
+#sec{
+    color: white;
+    text-align: center;
+    font-style: initial;
+    font-size: 30px;
+}
+button {
+    outline: none;
+    
+    cursor: pointer;
+    position: absolute;
+    
+    transform: translate(-50%, -50%);
+    
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    
+    color: white;
+    background-image: linear-gradient(to right top, #f7204b, #f72843, #f7303a, #f63831, #f43f27);
+    box-shadow: 
+      0 0 0px #000,
+      0 0 40px #F43F27,
+      0 0 800px #F27160;
+    
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+    transition: 300ms;
+  }
+  
+  button:hover {
+    width: 310px;
+    height: 65px;
+    
+    background-image: linear-gradient(to left bottom, #f7204b, #f72843, #f7303a, #f63831, #f43f27);
+    box-shadow: 
+      0 0 20px #000,
+      0 0 40px #F43F27,
+      0 0 800px #F27160;
+  }
