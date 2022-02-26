@@ -67,3 +67,14 @@ button {
       0 0 40px #F43F27,
       0 0 800px #F27160;
   }
+  #n1{
+    color: rgb(255, 255, 255);
+    font-style: initial;
+    font-size: large;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+#news{
+  color:aliceblue
+}
